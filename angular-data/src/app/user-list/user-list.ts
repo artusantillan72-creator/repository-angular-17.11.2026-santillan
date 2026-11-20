@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-
+import { UserItem} from '../user-item/user-item';
 @Component({
-  imports: [],
+  imports: [UserItem],
   selector: 'app-user-list',
   styleUrl: './user-list.css',
   templateUrl: './user-list.html',
